@@ -1,0 +1,11 @@
+/fMRI_processing/Subjects/
+/fMRI_processing/Results/
+
+/alice_dataset/
+
+.DS_Store
+
+/data/ROI_signals/All_networks/
+/data/ROI_signals/Excluded_networks/
+
+
