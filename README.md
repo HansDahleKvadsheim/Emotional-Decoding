@@ -40,7 +40,7 @@ emotional_decoding/
    → See *Thesis Section 4.3*
 
 3. **Dynamic Functional Connectivity (DFC)**  
-   DFC matrices were computed using a 22-second sliding window.  
+   DFC matrices were computed using a 12-TR sliding window.  
    → See *Thesis Section 4.5*
 
 4. **Model Training**  
