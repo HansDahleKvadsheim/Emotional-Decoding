@@ -5,7 +5,7 @@ from nilearn import datasets
 
 #CONFIGS
 USE_17_NETWORKS = False
-MODEL = "lasso"  # "SVR", "linear", "RF", "lasso" or "ridge"
+MODEL = "lasso"
 TOP_N = 5  # <<== CHANGE THIS to control how many top ROIs to extract
 NUM_ROIS = 400 # <<== should always be 400 tbh
 EMOTIONS = ['suprise', 'sadness', 'disgust', 'anger', 'fear', 'anticipation', 'joy', 'trust']
