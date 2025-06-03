@@ -3,9 +3,9 @@ import pandas as pd
 import networkx as nx
 from nilearn import datasets
 
-# === CONFIGURATION ===
+#CONFIGS
 USE_17_NETWORKS = False
-MODEL = "lasso"
+MODEL = "lasso"  # "SVR", "linear", "RF", "lasso" or "ridge"
 TOP_N = 5  # <<== CHANGE THIS to control how many top ROIs to extract
 NUM_ROIS = 400 # <<== should always be 400 tbh
 EMOTIONS = ['suprise', 'sadness', 'disgust', 'anger', 'fear', 'anticipation', 'joy', 'trust']

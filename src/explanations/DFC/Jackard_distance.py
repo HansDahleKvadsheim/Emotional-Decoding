@@ -4,9 +4,9 @@ import networkx as nx
 import numpy as np
 from itertools import combinations
 
-# === CONFIGURATION ===
+# CONFIGS
 USE_17_NETWORKS = False
-MODEL = "lasso"
+MODEL = "lasso"  # "SVR", "linear", "RF", "lasso" or "ridge"
 MST_BASE = f'src/explanations/DFC/{MODEL}/intermediate_results/MSTs'
 NETWORK_VERSION = '17N' if USE_17_NETWORKS else '7N'
 EMOTIONS = ['suprise', 'sadness', 'disgust', 'anger', 'fear', 'anticipation', 'joy', 'trust']

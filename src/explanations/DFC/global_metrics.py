@@ -2,9 +2,9 @@ import os
 import pandas as pd
 import networkx as nx
 
-# === CONFIGS ===
+# CONFIGS
 USE_17_NETWORKS = False
-MODEL = "linear"  # "SVM", "linear", "RF", "lasso" or "ridge"
+MODEL = "linear"  # "SVR", "linear", "RF", "lasso" or "ridge"
 OCC_PERCENTILE = 0
 FEATURE_PERCENTILE = 0
 EMOTIONS = ['suprise', 'sadness', 'disgust', 'anger', 'fear', 'anticipation', 'joy', 'trust']

@@ -9,9 +9,9 @@ from nilearn import datasets
 from PIL import Image
 import seaborn as sns
 
-# === CONFIGS ===
+# CONFIGS
 USE_17_NETWORKS = False
-MODEL = "lasso"   #"linear", "RF", "SVM", "Ridge" or "lasso"
+MODEL = "lasso"   #"linear", "RF", "SVR", "Ridge" or "lasso"
 AVG_DFC_CSV = 'src/explanations/DFC/avg_DFC.csv'
 IMPORTANCE_CSV = f'src/explanations/DFC/{MODEL}/importance.csv'
 MST_BASE = f'src/explanations/DFC/{MODEL}/intermediate_results/MSTs'
@@ -29,7 +29,7 @@ OUTPUT_CSV = f"{OUTPUT_CSV_BASE}_{NETWORK_VERSION}.csv"
 FINAL_OUTPUT_DIR = os.path.join(FINAL_OUTPUT_BASE, f"{NETWORK_VERSION}_OCC{OCC_PERCENTILE}_FEAT{FEATURE_PERCENTILE}")
 os.makedirs(FINAL_OUTPUT_DIR, exist_ok=True)
 
-# === NETWORK COLOR MAPPING ===
+#NETWORK COLOR MAPPING
 NETWORK_COLOR_MAPPING_17 = {
     "VisCent": "red", "VisPeri": "tomato",
     "SomMotA": "blue", "SomMotB": "skyblue",

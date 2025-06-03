@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 import os
 
-# === GLOBAL SETTINGS ===
+#GLOBAL SETTINGS
 OUTPUT_FORMAT = "csv"     # "png" or "csv"
 SCALE = True              # True = apply min-max scaling
-MODEL = "lasso"           # "SVM", "ridge", "linear", "lasso" or "RF"
+MODEL = "lasso"           # "SVR", "ridge", "linear", "lasso" or "RF"
 NETWORK_TYPE = "7N"      #"7N" or "17N"
 
 INPUT_CSV = f'src/explanations/DFC/{MODEL}/intermediate_results/metrics/network_weighted_summary_{NETWORK_TYPE}.csv'
