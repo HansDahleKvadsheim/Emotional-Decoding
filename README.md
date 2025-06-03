@@ -13,16 +13,19 @@ For full methodology, refer to **Chapters 1 and 4** of the thesis.
 ---
 
 ##  Repository Structure
-decoding_emotional_responses_to_language/
-│
-├── data/ # (not included) Processed ROI & DFC datasets + emotion labels
-├── fMRI_processing/ # Scripts for converting raw fMRI to ROI/DFC representations
-├── src/ # Main source code for modeling and analysis
-│ ├── sentiment_analysis/ # LLM-based emotional labeling (see thesis §4.2)
-│ ├── models/ # Model training & evaluation scripts (§4.7–4.9)
-│ ├── explanations/ # XAI-based model explanations (§4.10)
-│ └── utils/ # Shared utilities
-└── README.md # This file
+
+emotional_decoding/  
+│  
+├── data/                  # (not included) Processed ROI & DFC datasets + (included) emotion labels  
+├── fMRI_processing/       # Scripts for converting raw fMRI to ROI/DFC representations  
+├── src/                   # Main source code for modeling and analysis  
+│   ├── sentiment_analysis/ # LLM-based emotional labeling (see thesis §4.2)  
+│   ├── models/             # Model training & evaluation scripts (§4.7–4.9)  
+│   ├── explanations/       # XAI-based model explanations (§4.10)  
+│   └── utils/              # Shared utilities  
+└── README.md               # This file  
+
+
 
 
 
