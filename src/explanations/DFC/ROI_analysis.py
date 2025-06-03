@@ -6,7 +6,7 @@ from nilearn import datasets
 # === CONFIGURATION ===
 USE_17_NETWORKS = False
 MODEL = "lasso"
-TOP_N = 5  # <<== CHANGE THIS to control how many top ROIs to extract
+TOP_N = 5  # w<<== CHANGE THIS to control how many top ROIs to extract
 NUM_ROIS = 400 # <<== should always be 400 tbh
 EMOTIONS = ['suprise', 'sadness', 'disgust', 'anger', 'fear', 'anticipation', 'joy', 'trust']
 OCC_PERCENTILE = 0
