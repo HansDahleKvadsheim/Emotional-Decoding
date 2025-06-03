@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
-MODEL = "lasso"
+MODEL = "lasso"  # "SVR", "linear", "RF", "lasso" or "ridge"
 OUTPUT_DIR = f'src/explanations/DFC/{MODEL}/output/heatmaps/ROI_heatmaps'
 file_path = f"src/explanations/DFC/{MODEL}/intermediate_results/metrics/top_rois/top_5_rois_by_metric_7N.csv"  # Adjust path as needed
 
