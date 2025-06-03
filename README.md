@@ -53,7 +53,9 @@ emotional_decoding/
    - DFC: MST-based graph structures  
    → See *Thesis Section 4.10*
 
+## Code from the Project Delivery
 
+Code regarding preprocessing of stimuli, LLM-labeling and ROI preprocessing, for this projetct will be largely based on code used in Aasvær, A. S., & Kvadheim, H. D. (2024) *Decoding Emotional Responses to Language: A Neural Mapping Approach Using fMRI and Large Language Models*
 
 ## Dataset
 
