@@ -26,8 +26,6 @@ Refer to Chapter 4 (Methodology) and Chapter 5 (Results) in the thesis for metho
 
 ### permutation_testing/
 - Code for label permutation testing to assess model robustness.
-- Mirrors training directory structure.
-- Useful for generating null distributions.
 - Reference: Thesis Section 4.9 and 5.1.3
 
 ### explanations/
