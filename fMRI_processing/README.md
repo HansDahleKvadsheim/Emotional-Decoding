@@ -3,7 +3,7 @@
 This folder contains scripts used to convert raw fMRI data into ROI time series and dynamic functional connectivity (DFC) matrices
 
 ## Acknowledgment
-The original version of this code was generously provided by **Shuer Ye**. We thank him for sharing it. The scripts have been modified to accommodate our project’s requirements, specifically:
+The original version of this code was generously provided by **Shuer Ye** At the Kavli Institute.  We thank him for sharing it. The scripts have been modified to accommodate our project’s requirements, specifically:
 - The use of **segment-aligned story stimuli**
 - Formatting adjustments for compatibility with our ROI and DFC pipelines
 
