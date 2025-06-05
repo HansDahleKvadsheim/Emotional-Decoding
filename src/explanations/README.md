@@ -12,7 +12,7 @@ For methodology and interpretation, refer to Section 4.10 and Chapters 5.3–5.4
 Contains code and output for ROI-based feature importance analysis.
 
 - `roi_explainer.py`: Script for extracting feature weights from trained models and formatting them for visualization.
-- `reverse_atlas.ipynb`: Notebook for mapping ROI indices back to brain region labels.
+- `reverse_atlas.ipynb`:  convert ROI indices into spatial plots.
 - Outputs:
   - `importance.csv` per model: Contains emotion-specific feature weights
 
